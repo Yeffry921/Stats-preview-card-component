@@ -1,0 +1,33 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.company__header {
+  background-color: hsl(277, 64%, 61%);
+  
+}
+
+.company__header img {
+  mix-blend-mode: multiply;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.company__info {
+  background-color: hsl(244, 38%, 16%);
+  color:#fff;
+}
+
+.company__info h1 {
+  
+}
