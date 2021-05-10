@@ -1,19 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 *, *:before, *:after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   background-color: hsl(233, 47%, 7%);
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
 }
-
+.text-violet {
+  color: hsl(277, 64%, 61%);
+}
+.text-light {
+  color: hsla(0, 0%, 100%, 0.75);
+}
 .container {
   max-width: 375px;
-  margin: 0 auto;
+  margin: 0 1em;
+  padding: 50px;
 }
 
 .company__header {
   background-color: hsl(277, 64%, 61%);
-  
+  border-radius: 7px 7px 0 0;
 }
 
 .company__header img {
@@ -26,8 +41,36 @@ body {
 .company__info {
   background-color: hsl(244, 38%, 16%);
   color:#fff;
+  border-radius: 0 0 7px 7px;
+  padding: 10px;
 }
 
 .company__info h1 {
-  
+  padding: 10px 5px;
+}
+.company__info .title {
+  display: block;
+}
+.company__info p, h1, .title {
+  text-align: center;
+}
+.company__description {
+  margin: .5em 0;
+  font-size: 12px;
+  padding: 10px;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.company__stats {
+  text-align: center;
+  padding: 10px;
+}
+.company__stats p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.company__stats span {
+  text-transform: uppercase;
+  font-size: 8px;
+  letter-spacing: 1px;
 }
