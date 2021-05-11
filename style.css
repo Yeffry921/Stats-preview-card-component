@@ -13,6 +13,8 @@ body {
   height: 100vh;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
+  flex-direction: column;
+  
 }
 .text-violet {
   color: hsl(277, 64%, 61%);
@@ -75,6 +77,10 @@ body {
   letter-spacing: 1px;
 }
 
+.attribution {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 25px;
+}
 @media (min-width: 750px) {
   .container {
     display: flex;
