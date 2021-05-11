@@ -25,7 +25,7 @@ body {
 .container {
   max-width: 375px;
   margin: 0 1em;
-  padding: 50px;
+  padding: 3.12em;
 }
 
 .company__header {
@@ -44,11 +44,11 @@ body {
   background-color: hsl(244, 38%, 16%);
   color:#fff;
   border-radius: 0 0 7px 7px;
-  padding: 10px;
+  padding: .62em;
 }
 
 .company__info h1 {
-  padding: 10px 5px;
+  padding: .62em .31em;
 }
 .company__info .title {
   display: block;
@@ -59,13 +59,13 @@ body {
 .company__description {
   margin: .5em 0;
   font-size: 12px;
-  padding: 10px;
+  padding: .62em;
   line-height: 1.5;
   color: hsla(0, 0%, 100%, 0.75);
 }
 .company__stats {
   text-align: center;
-  padding: 10px;
+  padding: .62em;
 }
 .company__stats p {
   font-size: 15px;
@@ -79,7 +79,7 @@ body {
 
 .attribution {
   color: hsla(0, 0%, 100%, 0.75);
-  padding-bottom: 25px;
+  padding-bottom: 1.56px;
 }
 @media (min-width: 750px) {
   .container {
@@ -95,7 +95,7 @@ body {
   }
 
   .company__info {
-    padding: 50px;
+    padding: 3.12em;
     flex: 1;
     border-radius: 10px 0 0 10px;
   }
